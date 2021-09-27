@@ -1,0 +1,50 @@
+.widgetsm{
+    flex: 1;
+    box-shadow: 6px 7px 16px -2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 6px 7px 16px -2px rgba(0,0,0,0.47);
+    padding: 20px;   
+    margin-right: 20px; 
+}
+.widgetsmtitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.smlistitem img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.smlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.smlistitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.smuser{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px ;
+}
+.smusername{
+    font-weight: 300;
+}
+.smbutton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: white;
+    color: #555;
+    cursor: pointer;
+}
+.smicon{
+    font-size: 16P !important;
+    margin-right: 5px;
+}
